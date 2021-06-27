@@ -35,16 +35,28 @@ body {
 
     &__left {
         width: 30%;
-        padding: 75px;
+        height: 100%;
+        padding: 0 75px;
         background-color: #f5faff;
     }
 
     &__logo {
-        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+
+    &__hero {
+       margin-top: 50px;
     }
 
     &__heading {
-        margin: 20px 0;
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 50px;
+    }
+
+    &__image {
+        max-width: 100%;
+        height: auto;
     }
 
     &__right {
@@ -52,12 +64,6 @@ body {
         align-items: center;
         width: 70%;
         padding: 0 150px;
-    }
-
-    &__heading {
-        font-size: 36px;
-        margin-top: 0;
-        margin-bottom: 50px;
     }
 
     &__subheading {

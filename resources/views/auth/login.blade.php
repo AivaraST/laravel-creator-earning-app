@@ -4,8 +4,10 @@
     <div class="auth">
         <div class="auth__left">
             <img src="{{ asset('images/logo.svg') }}" alt="Logo" class="auth__logo">
-            <h2 class="auth__heading">Welcome back our lovely creator.</h2>
-            <img src="{{ asset('images/auth-login.svg') }}" alt="Animated working man" class="auth__image">
+            <div class="auth__hero">
+                <h2 class="auth__heading">Welcome back our lovely creator.</h2>
+                <img src="{{ asset('images/auth-login.svg') }}" alt="Animated working man" class="auth__image">
+            </div>
         </div>
         <div class="auth__right">
             <form method="POST" action="{{ route('login') }}" class="auth__form">
