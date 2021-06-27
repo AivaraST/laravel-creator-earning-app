@@ -1,0 +1,46 @@
+// Header
+.header {
+    height: 120px;
+    border-bottom: 1px solid #f5f5f5;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 220px;
+        height: 100%;
+        color: #5671f5;
+    }
+
+    &__access {
+        display: flex;
+        text-transform: uppercase;
+        height: 100%;
+    }
+
+    &__access-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        background-color: #ffffff;
+        color: #474644;
+        transition: all 0.3s ease-in-out;
+
+        &--highlighted {
+            color: #ffffff;
+            background-color: #4845d2;
+        }
+
+        &:hover {
+            color: #ffffff;
+            background-color: #3734ba;
+        }
+    }
+}
