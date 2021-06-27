@@ -3,7 +3,7 @@
 @section('content')
     <div class="auth">
         <div class="auth__left">
-            <a href="#"><img src="{{ asset('images/logo.svg') }}" alt="Logo" class="auth__logo"></a>
+            <a href="{{ route('home') }}"><img src="{{ asset('images/logo.svg') }}" alt="Logo" class="auth__logo"></a>
             <div class="auth__hero">
                 <h2 class="auth__heading">A few clicks away from starting earning money</h2>
                 <img src="{{ asset('images/auth-register.svg') }}" alt="Animated working man" class="auth__image">
