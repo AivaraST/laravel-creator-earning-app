@@ -1,4 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/app.css": "/css/app.css"
+    "/css/app.css": "/css/app.css",
+    "/images/auth-login.svg": "/images/auth-login.svg",
+    "/images/auth-register.svg": "/images/auth-register.svg",
+    "/images/logo.svg": "/images/logo.svg"
 }
