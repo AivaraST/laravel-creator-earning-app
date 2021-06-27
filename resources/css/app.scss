@@ -18,131 +18,24 @@ html {
 
 body {
     height: 100%;
-}
-
-body {
-    color: #12324b;
+    color: #242a55;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
     background-color: #feffff;
 }
 
-// Auth
-.auth {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-
-    &__left {
-        width: 30%;
-        height: 100%;
-        padding: 0 75px;
-        background-color: #f5faff;
-    }
-
-    &__logo {
-        margin-top: 20px;
-    }
-
-    &__hero {
-       margin-top: 50px;
-    }
-
-    &__heading {
-        font-size: 36px;
-        margin-top: 0;
-        margin-bottom: 50px;
-    }
-
-    &__image {
-        max-width: 100%;
-        height: auto;
-    }
-
-    &__right {
-        display: flex;
-        align-items: center;
-        width: 70%;
-        padding: 0 150px;
-    }
-
-    &__subheading {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    &__info {
-        color: #8e99a7;
-    }
-
-    &__divider {
-        margin: 20px 0;
-        background-color: #f6f9f8;
-        height: 1px;
-    }
-
-    &__input-group {
-        margin-bottom: 20px;
-
-        &--inline {
-            display: flex;
-            gap: 20px;
-        }
-    }
-
-    &__input-inline {
-        width: 50%;
-    }
-
-    &__input-label {
-        font-size: 12px;
-        display: inline-block;
-        margin-bottom: 5px;
-        font-weight: 600;
-    }
-
-    &__input-field {
-        display: block;
-        padding: 10px;
-        outline: none;
-        border: 1px solid #dbdfe2;
-        border-radius: 3px;
-        width: 100%;
-        transition: border 0.3s ease-in-out;
-
-        &:focus {
-            border-color: #2a27b0;
-        }
-    }
-
-    &__input-error {
-        display: block;
-        margin-top: 3px;
-        color: #ffacac;
-    }
-
-    &__btn {
-        background-color: #4845d2;
-        padding: 15px 30px;
-        color: #ffffff;
-        text-align: center;
-        outline: none;
-        border: none;
-        border-radius: 3px;
-        transition: background-color 0.3s ease-in-out;
-        cursor: pointer;
-
-        &:hover {
-            background-color: #2a27b0;
-        }
-    }
-
-    &__change-view-link {
-        color: #4845d2;
-        transition: color 0.3s ease-in-out;
-
-        &:hover {
-            color: #2a27b0;
-        }
-    }
+.container-fluid {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+
+.content {
+    padding: 100px 0;
+}
+
+// Imports
+@import "auth";
+@import "header";
+@import "footer";
+@import "home";
