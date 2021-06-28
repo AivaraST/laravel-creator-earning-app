@@ -3,6 +3,7 @@
 @section('content')
     <div class="container-fluid">
         <div class="content">
+            <h1>Feed</h1>
             @if($articles)
                 @foreach($articles as $article)
                     <h2>{{$article->title}}</h2>
